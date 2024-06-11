@@ -43,4 +43,6 @@ class Character(models.Model):
     
     def __str__(self):
         return self.name
+       
+# Finalizacion de replicar actividad del tercer Video 'Many To Many Relationships'.
         
