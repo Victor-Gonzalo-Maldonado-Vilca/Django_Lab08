@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'model_examples.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-# Inicio de replicar actividad del quinto Video 'DataBase Settings'.
+# Replica actividad del quinto Video 'DataBase Settings'.
 # Esta actividad se hizo desde el principio debido a que se hace uso de mysql de xampp en este proyecto
 
 DATABASES = {
@@ -87,7 +87,7 @@ DATABASES = {
         'PORT': '3306',
     }
 }
-# Finzalizacion de replicar actividad del quinto Video 'DataBase Settings'.
+# Finzalizacion de la actividad del quinto Video 'DataBase Settings'.
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators

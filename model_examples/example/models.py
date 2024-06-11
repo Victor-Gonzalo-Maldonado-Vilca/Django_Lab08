@@ -16,6 +16,8 @@ class DateExample(models.Model):
 class NullExample(models.Model):
     col = models.CharField(max_length=10, blank=True, null=True)
 
+# Replica actividad del primer y segundo video 'One To Many Relationships' y 'Query One To Many'.
+
 class Language(models.Model):
     name = models.CharField(max_length=10)
     
@@ -29,8 +31,10 @@ class Framework(models.Model):
     def __str__(self):
         return self.name
         
-#Inicio de replicar actividad del quinto Video 'DataBase Settings'.
+# Finzalizacion de la actividad del primer y segundo video 'One To Many Relationships' y 'Query One To Many'.
     
+# Replica actividad del tercer y cuarto video 'Many To Many Relationships' y 'Many To Many Query'.
+
 class Movie(models.Model):
     name = models.CharField(max_length=10)
     
@@ -43,5 +47,5 @@ class Character(models.Model):
     
     def __str__(self):
         return self.name
-       
-        
+     
+# Finzalizacion de la actividad del tercer y cuarto video 'Many To Many Relationships' y 'Many To Many Query'.
