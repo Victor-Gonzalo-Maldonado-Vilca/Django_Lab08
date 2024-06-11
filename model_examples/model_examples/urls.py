@@ -14,6 +14,9 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
+# Video 6 'Render a Django HTML Template to a PDF file Django Utility CFE Render to PDF'
+
 from django.contrib import admin
 from django.urls import path
 from .views import GeneratePDF
