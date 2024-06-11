@@ -4,6 +4,8 @@ from django.http import HttpResponse
 from django.views.generic import View
 from django.template.loader import get_template
 from .renderers import render_to_pdf
+import locale
+locale.setlocale(locale.LC_ALL, "")
 
 class GeneratePDF(View):
     def get(self, request, *args, **kwargs):
