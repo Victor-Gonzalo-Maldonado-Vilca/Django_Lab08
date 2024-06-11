@@ -16,7 +16,7 @@ class DateExample(models.Model):
 class NullExample(models.Model):
     col = models.CharField(max_length=10, blank=True, null=True)
     
-# Inicio de replicar actividad del segundo Video 'Query One To Many'
+# Inicio de replicar actividad del segundo Video 'Query One To Many'.
 
 class Language(models.Model):
     name = models.CharField(max_length=10)
@@ -31,4 +31,4 @@ class Framework(models.Model):
     def __str__(self):
         return self.name
         
-# Finalización de replicar actividad del segundo Video 'Query One To Many'
+# Finalización de replicar actividad del segundo Video 'Query One To Many'.
