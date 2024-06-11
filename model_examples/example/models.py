@@ -14,7 +14,7 @@ class DateExample(models.Model):
     the_date = models.DateTimeField()
     
 class NullExample(models.Model):
-    col = model.CharField(max_length=10, blank=True, null=True)
+    col = models.CharField(max_length=10, blank=True, null=True)
     
 class Language(models.Model):
     name = models.CharField(max_length=10)
