@@ -18,10 +18,11 @@ Including another URLconf
 # Video 6 'Render a Django HTML Template to a PDF file Django Utility CFE Render to PDF'
 
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from .views import GeneratePDF
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('pdf/', GeneratePDF.as_view()),
+    path('', include('email_app.urls'))
 ]
