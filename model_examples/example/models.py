@@ -29,7 +29,7 @@ class Framework(models.Model):
     def __str__(self):
         return self.name
         
-# Inicio de replicar actividad del cuarto Video 'Many To Many Quary'.
+#Inicio de replicar actividad del quinto Video 'DataBase Settings'.
     
 class Movie(models.Model):
     name = models.CharField(max_length=10)
@@ -44,5 +44,4 @@ class Character(models.Model):
     def __str__(self):
         return self.name
        
-# Finalizacion de replicar actividad del cuarto Video 'Many To Many Quary'.
         
