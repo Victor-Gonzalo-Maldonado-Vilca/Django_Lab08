@@ -1,5 +1,5 @@
 """
-URL configuration for model_examples project.
+URL configuration for email_project project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/
@@ -14,12 +14,10 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-
-# Video 6 'Render a Django HTML Template to a PDF file Django Utility CFE Render to PDF'
-
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('email_app.urls')),
 ]
